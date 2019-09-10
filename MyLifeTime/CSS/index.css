@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    margin: 60px auto 0;
+    padding-bottom: 1px;
+    width: 1200px;
+}
+
+.header img {
+    float: left;
+    padding-left: 64px;
+}
+
+.header div {
+    float: left;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+.header-foot {
+    width: 1200px;
+    margin: 60px auto 0;
+}
+
+.header-foot-left {
+    border-right: #1296db solid 2px;
+    width: 90px;
+    height: 150px;
+    float: left;
+}
+
+.header-foot-right {
+    width: 1000px;
+    height: 150px;
+    float: left;
+}
+
+.header-foot-right-button {
+    height: 70px;
+    width: 160px;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 24px;
+    box-shadow: 0 0 5px gray;
+    position: relative;
+    bottom: -45px;
+}
+
+.timeLine {
+    width: 1200px;
+    margin: 60px auto 0;
+    overflow: hidden;
+    position: relative
+}
+
+.clock-con {
+    font-size: 26px;
+    height: 43px;
+    color: #1296db;
+}
+
+.timeLine li {
+    padding-bottom: 0px;
+    zoom: 1;
+    display: flex;
+}
+
+.timeLine li:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.timeLine li .con span {
+    float: right;
+    font-size: 13px;
+    padding-top: 1px;
+}
+
+.timeLine li:last-child {
+    background: none !important;
+}
+
+.timeLine li p {
+    background: url(../image/icon.jpg) no-repeat 82px;
+    display: inline-block;
+    height: 20px;
+    width: 78px;
+    font-size: 14px;
+    text-align: right;
+    padding-right: 20px;
+    color: #138cfe;
+}
+
+
+.timeLine li .con {
+    width: calc(100% - 140px);
+    display: inline-block;
+    padding-bottom: 0;
+    margin-left: 20px;
+    background-color: #dbeffe;
+    /*box-shadow: 0 0 5px grey;*/
+    color: #138cfe;
+    margin-bottom: 2px;
+}
+
+.con-button {
+    background-color: #dbeffe;
+    border: 0;
+    right: 25px;
+    position: absolute;
+}
+
+.timeLine li .con-left {
+    height: 270px;
+    width: 90px;
+    border-right: #1296db solid 2px;
+}
+
+.timeLine li .con-right {
+    padding-left: 25px;
+    padding-right: 21px;
+    width: 1000px;
+}
+
+.con-right-innerBox {
+    height: 70px;
+    width: 160px;
+    float: left;
+    margin-top: 40px;
+    margin-right: 70px;
+    box-shadow: 0 0 5px gray;
+}
+
+.con-right-innerBox-image {
+    margin-top: 12px;
+    padding-right: -5px;
+}
+
+.con-right-innerBox-image-text{
+    margin-left: 20px;
+    margin-top: 25px;
+    position: absolute;
+}
+
+.con-right-innerBox-image-certificate {
+    margin-top: 21px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.con-right-innerBox-image-abstract {
+    margin-top: 21px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.con-right-innerBox-text {
+    font-size: 13px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 30px;
+}
+
+/*.con-right-innerBox-button-image {*/
+/*    font-size: 13px;*/
+/*    font-weight: bold;*/
+/*    position: absolute;*/
+/*    margin-top: 30px;*/
+/*    background: url("../image/certificate.png") no-repeat;*/
+/*}*/
+
+/*.con-right-innerBox-image {*/
+/*    background: url("../image/abstract.png") no-repeat 2px;*/
+/*}*/
+
+.con-right-innerBox-kids-1 {
+    top: 10px;
+}
+
+.timeLine li .con img {
+    max-width: 100%;
+}
+
+.footer {
+    height: 50px;
+    width: 1200px;
+}
+

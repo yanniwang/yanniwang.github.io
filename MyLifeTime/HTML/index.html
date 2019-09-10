@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyLifeTime</title>
+    <link rel="stylesheet" href="../CSS/index.css">
+</head>
+<body>
+
+<div class="header">
+    <img src="../image/clock.png">
+    <div class="clock-con">我的生命历程</div>
+</div>
+
+<div class="header-foot">
+
+    <div class="header-foot-left"></div>
+    <div class="header-foot-right">
+
+        <div class="header-foot-right-button" style="margin-left: 24px">
+            <img class="con-right-innerBox-image" style="margin-left: 20px; margin-top: 20px"
+                 src="../image/outpatient.png">
+            <span class="con-right-innerBox-image-text">门诊</span>
+        </div>
+        
+        <div class="header-foot-right-button" style="margin-left: 44px">
+            <img class="con-right-innerBox-image" style="margin-left: 20px; margin-top: 20px"
+                 src="../image/hospital.png">
+            <span class="con-right-innerBox-image-text">住院</span>
+        </div>
+
+    </div>
+
+</div>
+
+<ul class="timeLine">
+    <li>
+        <p>阶段一</p>
+        <div class="con">出生 > 婴儿期 > 幼儿期 > 学龄前期
+            <button id="button0" class="con-button" type="button" onclick="phaseZeroHide()">[隐藏]</button>
+        </div>
+    </li>
+
+    <li>
+        <div class="con-left"></div>
+        <div class="con-right">
+            <div class="con-right-innerBox">
+                <img class="con-right-innerBox-image" src="../image/kids.png">
+                <span class="con-right-innerBox-text">新生儿听力筛选</span>
+                <!--                <span>暂无记录</span>-->
+            </div>
+
+            <div class="con-right-innerBox">
+                <img class="con-right-innerBox-image" src="../image/kids.png">
+                <span class="con-right-innerBox-text">儿童健康检查</span>
+                <!--                <span>暂无记录</span>-->
+            </div>
+
+            <div class="con-right-innerBox">
+                <img class="con-right-innerBox-image" src="../image/kids.png">
+                <span class="con-right-innerBox-text">新生儿家庭访视</span>
+                <!--                <span>暂无记录</span>-->
+            </div>
+            <div class="con-right-innerBox">
+                <img class="con-right-innerBox-image" src="../image/kids.png">
+                <span class="con-right-innerBox-text">新生儿基本信息</span>
+                <!--                <span>暂无记录</span>-->
+            </div>
+            <!--            <div class="con-right-innerBox" style="margin-right: 0">-->
+            <!--                <input type="button" class="con-right-innerBox-button con-right-innerBox-button-image" value="出生医学证明">-->
+            <!--                &lt;!&ndash;                <span>暂无记录</span>&ndash;&gt;-->
+            <!--            </div>-->
+            <div class="con-right-innerBox">
+                <img class="con-right-innerBox-image-certificate" src="../image/certificate.png">
+                <span class="con-right-innerBox-text">出生医学证明</span>
+                <!--                <span>暂无记录</span>-->
+            </div>
+            <div class="con-right-innerBox">
+                <img class="con-right-innerBox-image" src="../image/kids.png">
+                <span class="con-right-innerBox-text">新生儿疾病筛选管</span>
+                <!--                <span>暂无记录</span>-->
+            </div>
+            <div class="con-right-innerBox">
+                <img class="con-right-innerBox-image-certificate" src="../image/certificate.png">
+                <span class="con-right-innerBox-text">出生缺陷检测管理</span>
+                <!--                <span>暂无记录</span>-->
+            </div>
+            <div class="con-right-innerBox">
+                <img class="con-right-innerBox-image" src="../image/kids.png">
+                <span class="con-right-innerBox-text">五岁以下儿童死亡</span>
+                <!--                <span>暂无记录</span>-->
+            </div>
+            <!--            <div class="con-right-innerBox" style="margin-right: 0">-->
+            <!--                <input type="button" class="con-right-innerBox-button" value="新生儿听力筛选">-->
+            <!--                &lt;!&ndash;                <span>暂无记录</span>&ndash;&gt;-->
+            <!--            </div>-->
+        </div>
+    </li>
+
+    <li>
+        <p>阶段二</p>
+        <div class="con">学龄期
+            <button id="button1" class="con-button" type="button" onclick="phaseOneHide()">[隐藏]</button>
+        </div>
+    </li>
+
+    <li>
+        <div class="con-left" style="height: 150px;"></div>
+        <div class="con-right">
+            <div class="con-right-innerBox">
+                <img class="con-right-innerBox-image-abstract" src="../image/abstract.png">
+                <span class="con-right-innerBox-text">门诊摘要信息</span>
+                <!--                <span>暂无记录</span>-->
+            </div>
+
+            <div class="con-right-innerBox">
+                <img class="con-right-innerBox-image-abstract" src="../image/abstract.png">
+                <span class="con-right-innerBox-text">住院摘要信息</span>
+                <!--                <span>暂无记录</span>-->
+            </div>
+
+            <div class="con-right-innerBox">
+                <img class="con-right-innerBox-image-abstract" src="../image/abstract.png">
+                <span class="con-right-innerBox-text">健康体检报告</span>
+                <!--                <span>暂无记录</span>-->
+            </div>
+        </div>
+    </li>
+
+    <li>
+        <p>阶段三</p>
+        <div class="con">青春期 > 青年期 > 中年期
+            <button id="button2" class="con-button" type="button" onclick="phaseTwoHide()">[隐藏]</button>
+        </div>
+    </li>
+    <li>
+        <div class="con-left" style="height: 150px;"></div>
+        <div class="con-right">
+            <div class="con-right-innerBox">
+                <img class="con-right-innerBox-image-abstract" src="../image/abstract.png">
+                <span class="con-right-innerBox-text">门诊摘要信息</span>
+                <!--                <span>暂无记录</span>-->
+            </div>
+
+            <div class="con-right-innerBox">
+                <img class="con-right-innerBox-image-abstract" src="../image/abstract.png">
+                <span class="con-right-innerBox-text">住院摘要信息</span>
+            </div>
+
+            <div class="con-right-innerBox">
+                <img class="con-right-innerBox-image-abstract" src="../image/abstract.png">
+                <span class="con-right-innerBox-text">健康体检报告</span>
+            </div>
+
+        </div>
+
+    </li>
+
+    <li>
+        <p>阶段四</p>
+        <div class="con">老年期
+            <!--            <input class="con-button" type="button" onclick="phaseFourHide()" value="隐藏">-->
+            <button id="button3" class="con-button" type="button" onclick="phaseThreeHide()">[隐藏]</button>
+        </div>
+    </li>
+    <li>
+        <div class="con-left" style="height: 150px;"></div>
+        <div class="con-right">
+            <div class="con-right-innerBox">
+                <img class="con-right-innerBox-image-abstract" src="../image/abstract.png">
+                <span class="con-right-innerBox-text">门诊摘要信息</span>
+                <!--                <span>暂无记录</span>-->
+            </div>
+
+            <div class="con-right-innerBox">
+                <img class="con-right-innerBox-image-abstract" src="../image/abstract.png">
+                <span class="con-right-innerBox-text">住院摘要信息</span>
+
+            </div>
+
+            <div class="con-right-innerBox">
+                <img class="con-right-innerBox-image-abstract" src="../image/abstract.png">
+                <span class="con-right-innerBox-text">健康体检报告</span>
+            </div>
+
+        </div>
+
+    </li>
+</ul>
+<footer class="footer"></footer>
+<script src="../JS/index.js"></script>
+</body>
+</html>
