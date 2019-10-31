@@ -1,0 +1,16 @@
+var arr = [1,2,3,4,5,6,7,8,9];
+function f(arr) {
+    var len = arr.length;
+    var randomIndex;
+    var temp;
+    while(len){
+        randomIndex = Math.floor(Math.random()*(len--));
+        temp = arr[randomIndex];
+        arr[randomIndex] = arr[len];
+        arr[len] = temp;
+    }
+    return arr;
+}
+
+var i = f(arr);
+console.log(i);
